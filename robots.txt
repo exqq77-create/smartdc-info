@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://smartdc-info.co.kr/sitemap.xml
