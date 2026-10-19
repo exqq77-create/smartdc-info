@@ -127,12 +127,21 @@ def main():
     for w in BANNED:
         if w in btxt: warns.append(f"banned/risky phrase: '{w}'")
 
+    # 4b. SEO length (네이버 서치어드바이저 권고: <title> 40자, description 80자)
+    tt = re.search(r"<title>(.*?)</title>", doc, re.S); tt = html.unescape(tt.group(1)).strip() if tt else ""
+    if len(tt) > 40: fails.append(f"<title> {len(tt)}자 > 40 (제목을 40자 이내로, 또는 <title>만 줄이기)")
+    if len(me["description"]) > 80: fails.append(f"description {len(me['description'])}자 > 80")
+    ogt = re.search(r'og:title" content="(.*?)"', doc); ogt = html.unescape(ogt.group(1)).strip() if ogt else ""
+    if len(ogt) > 40: fails.append(f"og:title {len(ogt)}자 > 40")
+    ogd = re.search(r'og:description" content="(.*?)"', doc); ogd = html.unescape(ogd.group(1)).strip() if ogd else ""
+    if len(ogd) > 80: fails.append(f"og:description {len(ogd)}자 > 80")
+
     # 5. structure
     ids = re.findall(r'<h2 id="(s\d)"', body)
     if ids != ["s1", "s2", "s3", "s4", "s5"]: fails.append(f"h2 ids = {ids}, expected s1..s5")
     if '<nav class="toc"' not in doc: fails.append("toc nav missing")
     og = re.search(r'property="og:title" content="(.*?)"', doc)
-    if not og or html.unescape(og.group(1)).strip() != me["title"]: fails.append("og:title != title")
+    if not og or html.unescape(og.group(1)).strip() not in (tt, me["title"]): fails.append("og:title != <title>")
     canon = re.search(r'<link rel="canonical" href="([^"]+)"', doc)
     if not canon or canon.group(1) != f"{own}journal/{a.slug}/": fails.append(f"canonical wrong: {canon.group(1) if canon else None}")
     if not me["has_article"]: fails.append("article block missing")
