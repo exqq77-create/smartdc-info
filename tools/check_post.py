@@ -36,6 +36,10 @@ DOMAINS = {
     "smartdc-info": ("https://smartdc-info.co.kr/", ["구미치과", "구미임플란트"]),
     "keundental-info": ("https://keundental-info.co.kr/", ["양천구치과", "강서구치과"]),
     "mppm-info": ("https://mppm-info.co.kr/", ["대구월성동피부과", "대구온다리프팅", "대구세르프"]),
+    "newclinic-info": ("https://newclinic-info.co.kr/", ["경성대피부과", "수영구피부과", "남천동피부과", "부산대상포진"]),
+    "innodoc-info": ("https://innodoc-info.co.kr/", ["해운대피부과", "부산쥬브젠", "부산세르프", "부산볼뉴머"]),
+    "kosleep-info": ("https://kosleep-info.co.kr/", ["수면장애", "수면다원검사", "불면증", "기면증", "수면클리닉"]),
+    "shinsegaelasik-info": ("https://shinsegaelasik-info.co.kr/", ["광주안과", "광주스마일라식", "광주라식", "광주라섹", "광주백내장"]),
 }
 BANNED = ["100%", "완치", "보장", "최고의", "유일한", "부작용 없", "부작용이 없", "확실히 효과", "무조건",
           "1위", "최저가", "가장 저렴", "절대", "영구적", "완벽", "검증된 효과", "입소문", "후기에서"]
