@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://smartdc-info.co.kr/</loc></url>
-<url><loc>https://smartdc-info.co.kr/treatments/gumi-implant/</loc><lastmod>2026-10-16</lastmod></url>
+<url><loc>https://smartdc-info.co.kr/treatments/gumi-implant/</loc><lastmod>2026-10-21</lastmod></url>
 <url><loc>https://smartdc-info.co.kr/treatments/gumi-ortho/</loc><lastmod>2026-10-16</lastmod></url>
 <url><loc>https://smartdc-info.co.kr/treatments/gumi-wisdom/</loc><lastmod>2026-10-16</lastmod></url>
 <url><loc>https://smartdc-info.co.kr/treatments/gumi-cavity/</loc><lastmod>2026-10-16</lastmod></url>
@@ -9,7 +9,7 @@
 <url><loc>https://smartdc-info.co.kr/treatments/gumi-gum/</loc><lastmod>2026-10-16</lastmod></url>
 <url><loc>https://smartdc-info.co.kr/treatments/gumi-crown/</loc><lastmod>2026-10-16</lastmod></url>
 <url><loc>https://smartdc-info.co.kr/treatments/gumi-denture/</loc><lastmod>2026-10-16</lastmod></url>
-<url><loc>https://smartdc-info.co.kr/treatments/gumi-scaling/</loc><lastmod>2026-10-16</lastmod></url>
+<url><loc>https://smartdc-info.co.kr/treatments/gumi-scaling/</loc><lastmod>2026-10-21</lastmod></url>
 <url><loc>https://smartdc-info.co.kr/about/</loc></url>
 <url><loc>https://smartdc-info.co.kr/contact/</loc></url>
 <url><loc>https://smartdc-info.co.kr/blog/</loc></url>
@@ -50,4 +50,6 @@
 <url><loc>https://smartdc-info.co.kr/journal/gumi-implant-01/</loc><lastmod>2026-09-15</lastmod></url>
 <url><loc>https://smartdc-info.co.kr/journal/gumi-crown-03/</loc><lastmod>2026-10-21</lastmod></url>
 <url><loc>https://smartdc-info.co.kr/journal/gumi-denture-03/</loc><lastmod>2026-10-21</lastmod></url>
+<url><loc>https://smartdc-info.co.kr/journal/gumi-scaling-03/</loc><lastmod>2026-10-21</lastmod></url>
+<url><loc>https://smartdc-info.co.kr/journal/gumi-implant-04/</loc><lastmod>2026-10-21</lastmod></url>
 </urlset>
