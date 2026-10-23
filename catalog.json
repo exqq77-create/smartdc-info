@@ -2443,7 +2443,13 @@
    "body_chars": 1839,
    "sha256_16": "1a7e3c64a4efd13f",
    "exact_dup_of": null,
-   "used": []
+   "used": [
+    {
+     "slug": "gumi-ortho-19",
+     "date": "2026-10-24",
+     "note": "돌출 원인(치성/골격성) 구분과 발치 판단 순서 각도. 원문의 기간 수치·Q&A·주소/연락처는 제외, 본문 약 2,100자(check_post 기준)"
+    }
+   ]
   },
   {
    "id": "153",
