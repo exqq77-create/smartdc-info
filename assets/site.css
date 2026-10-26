@@ -268,3 +268,20 @@ table.cost th { background: var(--tint); font-weight: 700; color: var(--brand-de
 .doctor ul { columns: 2; column-gap: 24px; font-size: .95rem; margin: 10px 0 0; }
 .doctor li { break-inside: avoid; }
 @media (max-width: 640px) { .doctor { grid-template-columns: 1fr; } .doctor ul { columns: 1; } .doctor img, .doctor .card-art { max-width: 220px; } }
+
+/* 2026-10-26 모바일 헤더 가독성: 로고 아래 키워드 한 줄, 글자 단위 줄바꿈 방지 */
+@media (max-width: 860px) {
+  .nav-toggle { flex: 0 0 auto; }
+  .site-header .wrap { gap: 12px; }
+  .brand { flex: 1 1 0; min-width: 0; flex-direction: column; align-items: flex-start; gap: 4px; padding: 8px 0; }
+  .brand img.wide { height: 28px; width: auto; max-width: 100%; }
+  .brand img:not(.wide) { height: 32px; }
+  .brand span { display: block; font-size: .9rem; line-height: 1.3; letter-spacing: -.01em; max-width: 100%; }
+  .brand small { display: none; }
+}
+@media (max-width: 480px) {
+  .notice-bar { font-size: .78rem; line-height: 1.4; }
+  .notice-bar .wrap { padding-top: 6px; padding-bottom: 6px; }
+  .notice-bar span { flex: 1 1 0; min-width: 0; }
+}
+@media (max-width: 380px) { .brand img.wide { height: 24px; } .brand span { font-size: .82rem; } }
