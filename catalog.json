@@ -2804,7 +2804,13 @@
    "body_chars": 2098,
    "sha256_16": "50caeb22d279f941",
    "exact_dup_of": null,
-   "used": []
+   "used": [
+    {
+     "slug": "gumi-implant-36",
+     "date": "2026-10-28",
+     "note": "구미임플란트 보철 주변 음식물 끼임·잇몸 관리(원문의 사후관리·잇몸 염증 언급 참고, 각도 변경). 참고: gumi-denture/scaling/cavity 후보 원문은 임플란트·교정·작성가이드라 주제 불일치로 제외"
+    }
+   ]
   },
   {
    "id": "139",
